@@ -96,13 +96,20 @@ async function loadProducts() {
       const card = document.createElement("div");
       card.className = "glass-card product-card reveal";
       card.style.transitionDelay = i * 0.1 + "s";
+      
+      // WhatsApp link aur button text check karne ke liye logic
+      const buttonText = p.buttonText ? p.buttonText : "Add to Cart";
+      const buttonAction = p.whatsappLink 
+        ? `<a href="${p.whatsappLink}" target="_blank" class="btn btn-primary btn-sm" style="text-align: center; display: inline-block;">${buttonText}</a>`
+        : `<button class="btn btn-primary btn-sm">${buttonText}</button>`;
+
       card.innerHTML = `
         <div class="p-img"><img src="${p.image}" alt="${p.name}" loading="lazy"></div>
         <div class="p-body">
           <h3>${p.name}</h3>
           <p class="p-price">$${p.price.toFixed(2)}</p>
           <p>${p.description}</p>
-          <button class="btn btn-primary btn-sm">Add to Cart</button>
+          ${buttonAction}
         </div>`;
       grid.appendChild(card);
       revealObserver.observe(card);
