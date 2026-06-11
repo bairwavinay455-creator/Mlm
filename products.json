@@ -5,14 +5,18 @@
     "mrp": "₹1,881.00 (Incl. of all taxes)",
     "netQuantity": "100 Tablets (1.3g each)",
     "category": "Nutraceutical",
-    "image": "https://picsum.photos/seed/foreverCplus/600/400",
-    "description": "Forever C Plus is a powerful Nutraceutical tablet enriched with Amla Extract and Hesperidin...",
+    "image": "watermarked_img_11508351774936347070.png",
+    "description": "Forever C Plus is a powerful Nutraceutical tablet enriched with Amla Extract and Hesperidin, delivering an effective Vitamin C boost for all-day immune and antioxidant support. Each pack contains 100 tablets (1.3g each), specially formulated for adults. Amla (Indian Gooseberry) is one of nature's richest sources of Vitamin C, while Hesperidin — a naturally occurring bioflavonoid found in citrus — enhances absorption and provides additional antioxidant benefits. Suitable for adults. Recommended usage: One tablet twice daily.",
     "keyFeatures": [
       "Enhanced with Amla Extract & Hesperidin",
-      "Powerful Vitamin C support"
+      "Powerful Vitamin C support",
+      "Antioxidant-rich formula",
+      "100 Tablets per pack",
+      "For Adults"
     ],
     "usage": "One tablet to be taken by adults, two times daily.",
-    "whatsappLink": "https://wa.link/7b847p"
+    "whatsappLink": "https://wa.link/7b847p",
+    "buttonText": "Buy from Whatsapp"
   },
   {
     "name": "Radiance by Forever Toner",
@@ -20,13 +24,19 @@
     "mrp": "₹881.00 (Incl. of all taxes)",
     "netVolume": "100 ml (3.3 FL. OZ.)",
     "category": "Skincare",
-    "image": "https://picsum.photos/seed/radianceToner/600/400",
-    "description": "Radiance by Forever Toner is a gentle, soothing Aloe and Saffron-based facial toner...",
+    "image": "watermarked_img_10041132245896882237.png",
+    "description": "Radiance by Forever Toner is a gentle, soothing Aloe and Saffron-based facial toner crafted to tighten pores and replenish moisture after cleansing. Enriched with Licorice for brightening and Cica (Centella Asiatica) for calming and repairing the skin barrier, this toner gives you a radiant, even-toned glow with every use. Sulphate Free, Paraben Free, and Dermatologically Tested — this formula is safe for all skin types. Made in India with love.",
     "keyFeatures": [
-      "Aloe, Saffron, Licorice & Cica formula"
+      "Aloe, Saffron, Licorice & Cica formula",
+      "Tightens pores & replenishes moisture",
+      "Sulphate Free & Paraben Free",
+      "Dermatologically Tested",
+      "Suitable for all skin types",
+      "Made in India"
     ],
-    "usage": "Spray toner on a clean face, avoiding eyes.",
-    "whatsappLink": "https://wa.link/7b847p"
+    "usage": "Spray toner on a clean face, avoiding eyes. Always follow with a moisturizer for a radiant glow.",
+    "whatsappLink": "https://wa.link/7b847p",
+    "buttonText": "Buy from Whatsapp"
   },
   {
     "name": "Forever Tulsi Van Honey",
@@ -34,33 +44,35 @@
     "mrp": "₹810.00 (Incl. of all taxes)",
     "netWeight": "500g",
     "category": "Natural Foods",
-    "image": "https://picsum.photos/seed/tulsiHoney/600/400",
-    "description": "Forever Tulsi Van Honey is a pure, natural honey blend...",
+    "image": "watermarked_img_7302626326874418946.png",
+    "description": "Forever Tulsi Van Honey is a pure, natural honey blend combining the goodness of Honeydew Honey and Blossom Honey, infused with the essence of Tulsi (Holy Basil) — one of Ayurveda's most revered herbs. Sourced naturally and free from artificial additives, this 500g squeeze bottle delivers rich, earthy sweetness with the added wellness benefits of Tulsi. Perfect as a daily immunity booster, a natural sweetener in teas, or a wholesome spread. A true gift from nature's forests.",
     "keyFeatures": [
-      "Natural blend of Honeydew Honey & Blossom Honey"
+      "Natural blend of Honeydew Honey & Blossom Honey",
+      "Infused with Tulsi (Holy Basil)",
+      "No artificial additives or preservatives",
+      "Rich in natural antioxidants",
+      "500g easy-squeeze bottle"
     ],
-    "usage": "Use as a natural sweetener in beverages.",
-    "whatsappLink": "https://wa.link/7b847p"
+    "usage": "Use as a natural sweetener in beverages, spread on bread, or consume directly for daily wellness.",
+    "whatsappLink": "https://wa.link/7b847p",
+    "buttonText": "Buy from Whatsapp"
   },
   {
     "name": "ZenSleep Herbal Tea",
     "price": 24.99,
     "image": "https://picsum.photos/seed/tea/600/400",
-    "description": "Calming chamomile and valerian root blend for deep, restorative sleep.",
-    "whatsappLink": ""
+    "description": "Calming chamomile and valerian root blend for deep, restorative sleep."
   },
   {
     "name": "ImmunoShield Drops",
     "price": 39.95,
     "image": "https://picsum.photos/seed/drops/600/400",
-    "description": "Concentrated elderberry and zinc drops to strengthen your immune defenses.",
-    "whatsappLink": ""
+    "description": "Concentrated elderberry and zinc drops to strengthen your immune defenses."
   },
   {
     "name": "EnergyMax Pre-Workout",
     "price": 44.00,
     "image": "https://picsum.photos/seed/energy/600/400",
-    "description": "Clean caffeine and beta-alanine formula for explosive workouts without crash.",
-    "whatsappLink": ""
+    "description": "Clean caffeine and beta-alanine formula for explosive workouts without crash."
   }
 ]
