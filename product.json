@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Vital Boost Multivitamin",
+    "price": 49.99,
+    "image": "https://picsum.photos/seed/vitamin/600/400",
+    "description": "Daily essential multivitamin with 23 nutrients for energy, immunity, and focus."
+  },
+  {
+    "name": "PureGlow Skin Serum",
+    "price": 79.00,
+    "image": "https://picsum.photos/seed/serum/600/400",
+    "description": "Anti-aging vitamin C serum with hyaluronic acid for radiant, youthful skin."
+  },
+  {
+    "name": "LeanFit Protein Shake",
+    "price": 59.50,
+    "image": "https://picsum.photos/seed/protein/600/400",
+    "description": "Plant-based protein blend with 25g protein per serving. Chocolate flavor."
+  },
+  {
+    "name": "ZenSleep Herbal Tea",
+    "price": 24.99,
+    "image": "https://picsum.photos/seed/tea/600/400",
+    "description": "Calming chamomile and valerian root blend for deep, restorative sleep."
+  },
+  {
+    "name": "ImmunoShield Drops",
+    "price": 39.95,
+    "image": "https://picsum.photos/seed/drops/600/400",
+    "description": "Concentrated elderberry and zinc drops to strengthen your immune defenses."
+  },
+  {
+    "name": "EnergyMax Pre-Workout",
+    "price": 44.00,
+    "image": "https://picsum.photos/seed/energy/600/400",
+    "description": "Clean caffeine and beta-alanine formula for explosive workouts without crash."
+  }
+]
