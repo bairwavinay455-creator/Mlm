@@ -78,7 +78,6 @@ function animateCounters(scope) {
     requestAnimationFrame(tick);
   });
 }
-// Hero counters fire on load too
 const heroText = document.querySelector(".hero-text");
 if (heroText) animateCounters(heroText);
 
@@ -96,12 +95,12 @@ if (hero && hero3d && matchMedia("(pointer:fine)").matches) {
   });
 }
 
-/* ============ PRODUCTS (from product.json - FIXED NAME) ============ */
+/* ============ PRODUCTS (from product.json) ============ */
 async function loadProducts() {
   const grid = document.getElementById("product-grid");
   if (!grid) return;
   try {
-    // AAPKI FILE KA ORIGINAL NAME product.json HAI, ISE HUMNE FIXED KAR DIYA HAI
+    // Aapki file ka asli naam product.json hai (bina 's' ke), ise sahi kar diya hai
     const res = await fetch("product.json");
     if (!res.ok) throw new Error(res.status);
     const products = await res.json();
@@ -127,7 +126,6 @@ async function loadProducts() {
       grid.appendChild(card);
       revealObserver.observe(card);
       
-      // Dynamic products par bhi 3D tilt attach karne ke liye handler bind kiya
       bindTiltEffect(card);
     });
   } catch (err) {
@@ -200,8 +198,7 @@ document.querySelectorAll(".faq-item").forEach(item => {
       const isOpen = item.classList.contains("open");
       document.querySelectorAll(".faq-item.open").forEach(o => {
         o.classList.remove("open");
-        const a = o.querySelector(".faq-a");
-        if (a) a.style.maxHeight = null;
+        o.querySelector(".faq-a").style.maxHeight = null;
       });
       if (!isOpen && answer) {
         item.classList.add("open");
@@ -211,7 +208,7 @@ document.querySelectorAll(".faq-item").forEach(item => {
   }
 });
 
-/* ============ FORMS (demo handlers) ============ */
+/* ============ FORMS ============ */
 function handleForm(formId, msgId, successText) {
   const form = document.getElementById(formId);
   const msg = document.getElementById(msgId);
@@ -258,7 +255,7 @@ if (rootNode) {
       setTimeout(() => {
         node.classList.add("glow-pulse");
         node.addEventListener("animationend", () => node.classList.remove("glow-pulse"), { once: true });
-      }, 120 * (i + 1)); // Clean top-to-bottom matrix cascading sequence
+      }, 120 * (i + 1));
     });
 
     setTimeout(() => (cascading = false), 120 * childNodes.length + 900);
